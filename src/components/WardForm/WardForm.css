@@ -1,0 +1,45 @@
+.ward-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ward-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: max-content;
+}
+
+.ward-form input {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 2px solid gray;
+}
+
+.ward-form select {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 2px solid gray;
+}
+
+.ward-form .label {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ward-add-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.4rem 1.4rem;
+  border-radius: 0.4rem;
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 1rem;
+}

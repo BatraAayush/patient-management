@@ -1,0 +1,4 @@
+.ward-list-container {
+  width: 100%;
+  overflow-x: scroll;
+}
