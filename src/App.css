@@ -50,8 +50,8 @@ a {
 /* primary button */
 
 .primary-button {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: white;
+  color: black;
   padding: 0.2rem 1rem;
   border-radius: 0.4rem;
   width: max-content;
@@ -68,4 +68,5 @@ a {
   border-radius: 0.4rem;
   width: max-content;
   cursor: pointer;
+  border: none;
 }
